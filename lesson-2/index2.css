@@ -195,13 +195,13 @@ p {
   position: absolute;
   top: 533px;
   left: 1440px;
-  background-image: url(./assets/Soundcloud.png);
+  background-image: url(./assets/mybeer.jpeg);
 }
 
 .eight:hover {
   transform: rotateX(360deg);
   transition: ease-in-out 1s;
-  background-image: url(./assets/Soundcloud-2.png);
+  background-image: url(./assets/mybeer-2.jpeg);
 }
 
 .border-1 {
