@@ -1,0 +1,77 @@
+body {
+  height: 200vh;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  background-color: bisque;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  opacity: 0.5;
+}
+
+.list {
+  display: inline-block;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 400px;
+  position: relative;
+}
+
+.block1 {
+  display: inline-block;
+  height: 400px;
+  width: 180px;
+  margin: 15px;
+  background-color: aquamarine;
+}
+.all {
+  margin: 100px auto;
+  width: 800px;
+}
+
+.inblock1 {
+  height: 50px;
+  width: 80px;
+  background-color: red;
+  position: sticky;
+  top: 50px;
+  margin-left: 50px;
+}
+
+.inblock1:hover {
+  transform: scaleY(2);
+  transition: ease-in-out 1s;
+}
+
+.inblock2 {
+  height: 50px;
+  width: 80px;
+  background-color: yellow;
+  position: sticky;
+  top: 150px;
+  margin-left: 50px;
+}
+
+.inblock2:hover {
+  transform: scaleY(2);
+  transition: ease-in-out 1s;
+}
+
+.inblock3 {
+  height: 50px;
+  width: 80px;
+  background-color: blue;
+  position: sticky;
+  top: 260px;
+  margin-left: 50px;
+}
+
+.inblock3:hover {
+  transform: scaleY(2);
+  transition: ease-in-out 1s;
+}

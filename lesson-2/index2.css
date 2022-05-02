@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+}
+.all_page {
+  position: relative;
+  max-width: 1920px;
+  z-index: 3;
+}
+
+.my_header {
+  position: fixed;
+  width: 1920px;
+  height: 55px;
+  z-index: 4;
+  background-color: white;
+  margin: auto;
+}
+
+.block {
+  display: inline-block;
+}
+
+.first_icon {
+  position: absolute;
+  width: 41px;
+  height: 23px;
+  top: 32px;
+  left: 40px;
+}
+
+.header_text {
+  position: absolute;
+  height: 23px;
+  top: 32px;
+  left: 123px;
+  line-height: 23.44px;
+}
+
+.second_icon {
+  position: absolute;
+  width: 243px;
+  height: 55px;
+  top: 16px;
+  right: 50px;
+}
+
+.bold {
+  position: absolute;
+  width: 80px;
+  height: 0px;
+  border-top: 12px solid #000000;
+  transform: rotate(0.42deg);
+}
+
+span {
+  position: absolute;
+  top: 130px;
+  left: 150px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.line {
+  display: inline-block;
+  position: absolute;
+  top: 144px;
+  left: 40px;
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.first {
+  display: inline-block;
+}
+
+.one {
+  width: 440px;
+  height: 280px;
+  position: absolute;
+  top: 230px;
+  left: 40px;
+  background-image: url(./assets/facebook-1.png);
+}
+
+.one:hover {
+  transform: rotateX(360deg);
+  transition: ease-in-out 1s;
+  background-image: url(./assets/facebook-2.png);
+}
+
+.two {
+  width: 440px;
+  height: 280px;
+  position: absolute;
+  top: 230px;
+  left: 506px;
+  background-image: url(./assets/Instagram.png);
+}
+
+.two:hover {
+  transform: rotateY(360deg);
+  transition: ease-in-out 1s;
+  background-image: url(./assets/Instagram-2.png);
+}
+
+.three {
+  width: 440px;
+  height: 280px;
+  position: absolute;
+  top: 230px;
+  left: 972px;
+  background-image: url(./assets/Shopify.png);
+}
+
+.three:hover {
+  transform: rotateX(360deg);
+  transition: ease-in-out 1s;
+  background-image: url(./assets/Shopify-2.png);
+}
+
+.four {
+  width: 440px;
+  height: 280px;
+  position: absolute;
+  top: 230px;
+  left: 1440px;
+  background-image: url(./assets/Skype.png);
+}
+
+.four:hover {
+  transform: rotateX(360deg);
+  transition: ease-in-out 1s;
+  background-image: url(./assets/Skype-2.png);
+}
+
+.second {
+  display: inline-block;
+}
+
+.five {
+  width: 440px;
+  height: 280px;
+  position: absolute;
+  top: 533px;
+  left: 40px;
+  background-image: url(./assets/Pinterest.png);
+}
+
+.five:hover {
+  transform: rotateX(360deg);
+  transition: ease-in-out 1s;
+  background-image: url(./assets/Pinterest-2.png);
+}
+
+.six {
+  width: 440px;
+  height: 280px;
+  position: absolute;
+  top: 533px;
+  left: 506px;
+  background-image: url(./assets/Wix.png);
+}
+
+.six:hover {
+  transform: rotateX(360deg);
+  transition: ease-in-out 1s;
+  background-image: url(./assets/Wix-2.png);
+}
+
+.seven {
+  width: 440px;
+  height: 280px;
+  position: absolute;
+  top: 533px;
+  left: 972px;
+  background-image: url(./assets/Salesforce.png);
+}
+
+.seven:hover {
+  transform: rotateX(360deg);
+  transition: ease-in-out 1s;
+  background-image: url(./assets/Salesforce-2.png);
+}
+
+.eight {
+  width: 440px;
+  height: 280px;
+  position: absolute;
+  top: 533px;
+  left: 1440px;
+  background-image: url(./assets/Soundcloud.png);
+}
+
+.eight:hover {
+  transform: rotateX(360deg);
+  transition: ease-in-out 1s;
+  background-image: url(./assets/Soundcloud-2.png);
+}
+
+.border-1 {
+  position: absolute;
+  width: 1920px;
+  height: 0px;
+  border: 1px solid #bfbfbf;
+  top: 196px;
+}
+
+.border-2 {
+  position: absolute;
+  width: 1920px;
+  height: 0px;
+  border: 1px solid #bfbfbf;
+  top: 520px;
+}
+
+.border-3 {
+  position: absolute;
+  width: 1920px;
+  height: 0px;
+  border: 1px solid #bfbfbf;
+  top: 833px;
+}

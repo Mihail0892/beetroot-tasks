@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+}
+
+.all_page {
+  position: relative;
+  max-width: 1920px;
+  height: 937px;
+  overflow-y: scroll;
+  z-index: 3;
+}
+
+.my_header {
+  position: fixed;
+  width: 1920px;
+  height: 55px;
+  z-index: 4;
+  background-color: white;
+  margin: auto;
+}
+
+.block {
+  display: inline-block;
+}
+
+.first_icon {
+  position: absolute;
+  width: 41px;
+  height: 23px;
+  top: 32px;
+  left: 40px;
+}
+
+.header_text {
+  position: absolute;
+  height: 23px;
+  top: 32px;
+  left: 123px;
+  line-height: 23.44px;
+}
+
+.second_icon {
+  position: absolute;
+  width: 243px;
+  height: 55px;
+  top: 16px;
+  right: 50px;
+}
+
+.navigation {
+  width: 600px;
+  position: fixed;
+}
+
+.number {
+  position: absolute;
+  width: 12px;
+  height: 29.72px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.988px;
+  line-height: 25px;
+}
+
+.number-1 {
+  top: 125.49px;
+  left: 40px;
+}
+
+.number-2 {
+  top: 268.13px;
+  left: 40px;
+}
+
+.number-3 {
+  top: 410.78px;
+  left: 40px;
+}
+
+.number-4 {
+  top: 553.42px;
+  left: 40px;
+}
+
+.line {
+  position: absolute;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.first-line {
+  top: 121.89px;
+  left: 74.19px;
+}
+
+.second-line {
+  top: 264.54px;
+  left: 74.19px;
+}
+
+.third-line {
+  top: 407.18px;
+  left: 74.19px;
+}
+
+.fourth-line {
+  top: 549.83px;
+  left: 74.19px;
+}
+
+.bold {
+  position: absolute;
+  width: 80px;
+  height: 0px;
+  border-top: 12px solid #000000;
+  transform: rotate(0.42deg);
+}
+
+.content {
+  position: relative;
+  width: 1160px;
+  height: 3843px;
+  top: 121px;
+  left: 720px;
+  z-index: 2;
+}
+
+.line-1 {
+  position: absolute;
+  top: 28px;
+}
+
+.line-2 {
+  position: absolute;
+  top: 414px;
+}
+
+.line-3 {
+  position: absolute;
+  top: 891px;
+}
+
+.line-4 {
+  position: absolute;
+  top: 1886px;
+}
+
+.title-1 {
+  position: absolute;
+  top: 52px;
+}
+.title-2 {
+  position: absolute;
+  top: 442px;
+}
+
+.title-3 {
+  position: absolute;
+  top: 919px;
+}
+
+.title-4 {
+  position: absolute;
+  top: 1914px;
+}
+
+.for-title-1 {
+  position: absolute;
+  top: 150px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.for-title-2 {
+  position: absolute;
+  top: 514px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.for-title-3 {
+  position: absolute;
+  top: 1019px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.for-title-4 {
+  position: absolute;
+  top: 2014px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.background {
+  position: fixed;
+  top: 261px;
+  left: 1270px;
+  z-index: -1;
+}
+
+.anchor{
+	text-decoration: none;
+  color: #000000;
+}
