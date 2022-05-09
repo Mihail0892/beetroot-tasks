@@ -46,7 +46,7 @@ h3 {
   margin-right: 29px;
   width: 350px;
   height: 28px;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -76,7 +76,7 @@ h3 {
   background-color: white;
   margin-right: 14px;
   margin-left: 29px;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -94,7 +94,7 @@ h3 {
   height: 46px;
   border: 0px;
   border-radius: 4px;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -121,7 +121,7 @@ main {
 }
 
 .caption {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 44px;
@@ -134,7 +134,7 @@ main {
 
 .text-1 {
   width: 458px;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -146,7 +146,7 @@ main {
   height: 53px;
   border: 0px;
   border-radius: 4px;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -164,7 +164,7 @@ main {
 .video-link {
   display: flex;
   align-items: center;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -188,7 +188,7 @@ main {
 
 .caption-2 {
   margin: 80px 0 54px 0;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -196,137 +196,137 @@ main {
   text-align: center;
 }
 
-.icon:hover{
-  transform:translate(20px);
+.icon:hover {
+  transform: translate(20px);
   transition: ease-in-out 0.3s;
 }
 
-.mini-title{
+.mini-title {
   margin: 30px 0 13px 0;
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 22px;
-line-height: 33px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
 }
 
-.section-2-p{
+.section-2-p {
   width: 240px;
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
 }
 
-.section2-button{
+.section2-button {
   margin: 34px 0 110px 465px;
 }
 
-.section-3-content{
+.section-3-content {
   width: 486px;
 }
 
-.section-3-p{
+.section-3-p {
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-margin-bottom: 25px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 25px;
 }
 
-.bold-text{
+.bold-text {
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 26px;
-margin-bottom: 12px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 12px;
 }
 
-.caption-3{
+.caption-3 {
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 54px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
 }
 
-.line-2{
+.line-2 {
   display: inline-block;
 }
 
-.section-4-p{
-  width: 365px; 
+.section-4-p {
+  width: 365px;
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-margin: 15px 0 15px 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 15px 0 15px 30px;
 }
 
-.caption-4{
+.caption-4 {
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 54px;
-margin-bottom: 22px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  margin-bottom: 22px;
 }
 
-footer{
+footer {
   padding: 105px 145px 0 145px;
   margin: 0 auto;
   max-width: 1440px;
 }
 
-.footer-parent-block{
+.footer-parent-block {
   display: flex;
   justify-content: flex-end;
 }
 
-.footer-block{
+.footer-block {
   width: 740px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
 
-ul{
+ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-li a{
+li a {
   text-decoration: none;
   color: black;
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 35px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
 }
 
-li a:hover{
-  text-decoration:underline;
+li a:hover {
+  text-decoration: underline;
 }
 
-.footer-form{
+.footer-form {
   width: 325px;
   display: flex;
   flex-direction: column;
   row-gap: 20px;
 }
 
-.footer-input{
+.footer-input {
   width: 325px;
   height: 48px;
   padding-left: 10px;
   font-family: 'ProximaNova';
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
 }
