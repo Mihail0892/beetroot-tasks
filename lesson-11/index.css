@@ -1,0 +1,227 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(./fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url(./fonts/NunitoSans-SemiBold.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.all-page,
+.all-footer {
+  padding: 0 127px 0 158px;
+}
+
+header {
+  margin-top: 38px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.logo {
+  margin-bottom: 45px;
+}
+
+.servic {
+  margin-top: 55px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #7690a8;
+}
+
+.main-title {
+  margin-top: 17px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.2px;
+  color: #16133d;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  padding: 41px 45px 46px 41px;
+  margin-top: 35px;
+  width: 360px;
+  height: 347px;
+  background: #ffffff;
+  border: 1px solid #e5eaf4;
+  border-radius: 8px;
+}
+
+.box:hover {
+  border: 1px solid #3db370;
+}
+
+.icon-border {
+  width: 64px;
+  height: 64px;
+  border: 1px solid rgba(61, 179, 112, 0.1);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 28px 0 14px 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 21px;
+  letter-spacing: 0.2px;
+  color: #16133d;
+}
+
+.text {
+  margin-bottom: 29px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #16133d;
+}
+
+.text-2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #16133d;
+}
+
+footer {
+  margin-top: 69px;
+  /* padding: 0; */
+  /* width: 1440px; */
+  height: 194px;
+  background-color: #16133d;
+}
+
+.footer-logo {
+  padding-top: 36px;
+}
+
+.logo:hover .color {
+  fill: red;
+}
+
+.footer-icon-border {
+  width: 38px;
+  height: 38px;
+  background: #efeef3;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-flex {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 222px;
+}
+
+.insta {
+  width: 20px;
+  height: 20px;
+}
+
+.insta:hover {
+  stroke: red;
+  fill: orange;
+}
+
+/* .insta use{
+  fill: #0D0D0D;
+}
+
+.insta use:hover{
+  fill:orange;
+} */
+
+.facebook {
+  width: 20px;
+  height: 20px;
+}
+
+.facebook:hover {
+  stroke: red;
+  fill: orange;
+}
+
+.github {
+  width: 20px;
+  height: 20px;
+}
+
+.github:hover {
+  stroke: red;
+  fill: orange;
+}
+
+.dribble {
+  width: 20px;
+  height: 20px;
+}
+
+.dribble:hover {
+  stroke: red;
+  fill: orange;
+}
+
+.twitter {
+  width: 20px;
+  height: 20px;
+}
+
+.twitter:hover {
+  stroke: rgb(209, 227, 14);
+  fill: rgb(24, 136, 234);
+}
+
+.footer-logo:hover .footer-color {
+  fill: rgb(79, 220, 18);
+}
+
+.color2:hover {
+  fill: #f22ca9;
+}
+
+.color3:hover {
+  fill: #6d4905;
+}
+
+.color4:hover {
+  fill: #e2ed09;
+}
+
+.color5:hover {
+  fill: #f19f08;
+}
