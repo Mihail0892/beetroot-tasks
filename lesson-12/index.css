@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Gilroy-Bold";
   src: url(./fonts/Gilroy-Bold.ttf);
@@ -549,5 +550,66 @@ button:hover {
     font-size: 18px;
     line-height: 22px;
   }
+}
+
+.menu-toggle {
+  display: none;
+}
+
+/*Первый способ меню*/
+.navigation-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .menu-toggle:checked + .navigation-mobile {
+    height: 100vh;
+    padding-bottom: 300px;
+    padding-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-left: 30px;
+  }
+}
+
+.navigation-mobile a {
+  text-decoration: none;
+  color: #828282;
+  font-family: "Gilroy-Bold";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 600px) {
+  .navigation-mobile a {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    margin-left: 15px;
+  }
+}
+
+.lang-mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  margin-top: 60vh;
+  margin-left: 90vw;
+  font-size: 34px;
+  line-height: 42px;
 }
 /*# sourceMappingURL=index.css.map */

@@ -223,7 +223,7 @@ p {
   font-family: $bold-font;
   @extend %second-text-style;
   text-align: center;
-  color: $lite-black;
+  color: #070707;
   @media screen and (max-width: 600px) {
     padding-top: 81px;
   }
@@ -436,4 +436,66 @@ button:hover {
     font-size: 18px;
     line-height: 22px;
   }
+}
+
+.menu-toggle{
+  display: none;
+}
+
+
+/*Первый способ меню*/
+
+// .menu-toggle:checked +.navigation {
+//   display:grid;
+//   margin-top: 0;
+//   padding-top: 0;
+//   position: absolute;
+//   z-index: 3;
+//   background-color:white;
+//   width: 70%;
+// }
+
+
+.navigation-mobile{
+display: none;
+}
+
+
+.menu-toggle:checked +.navigation-mobile{
+  @media screen and (max-width: 600px) {
+    height: 100vh;
+    padding-bottom:300px;
+    padding-top: 50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 30px;
+  }
+}
+
+.navigation-mobile a {
+  text-decoration: none;
+  color: #828282;
+  font-family: "Gilroy-Bold";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  @media screen and (max-width: 600px) {
+  font-family: 'Gilroy-Bold';
+font-size: 34px;
+line-height: 42px;
+margin-left: 15px;
+}
+}
+
+.lang-mobile{
+  display: flex;
+  position: absolute;
+  transform: rotate(90deg);
+  transform-origin: top left;
+  margin-top: 60vh;
+  margin-left: 90vw;
+  font-size: 34px;
+line-height: 42px;
+
 }

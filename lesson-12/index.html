@@ -5,10 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <header>
+      <label class="hamburger-icon" for="menu-toggle">
+        <div class="burger-section">
+          <img
+            src="./assets/burger-menu.svg"
+            class="burger-menu"
+            alt="menu"
+          /></div
+      ></label>
+      <input type="checkbox" class="menu-toggle" id="menu-toggle" />
+      <div class="navigation-mobile">
+        <a href="#Home">Home</a>
+        <a href="#About me">About me</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Portfolio">Portfolio</a>
+        <a href="#Contacts">Contacts</a>
+        <div class="lang-mobile">
+          <a href="#" class="ru">RU</a> <span class="vertical">|</span>
+          <a href="#" class="eng">ENG </a>
+        </div>
+      </div> 
       <div class="navigation">
         <a href="#Home">Home</a>
         <a href="#About me">About me</a>
@@ -16,14 +36,12 @@
         <a href="#Portfolio">Portfolio</a>
         <a href="#Contacts">Contacts</a>
       </div>
+
       <div class="line">
         <img class="line" src="./assets/Vector.svg" alt="horisontal line" />
       </div>
     </header>
     <main>
-      <div class="burger-section">
-        <img src="./assets/burger-menu.svg" class="burger-menu" alt="menu" />
-      </div>
       <section class="home">
         <div class="main-info">
           <span id="Home" class="name">Denis Novik</span>
@@ -125,4 +143,3 @@
     </footer>
   </body>
 </html>
-
