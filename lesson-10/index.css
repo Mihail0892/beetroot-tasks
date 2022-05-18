@@ -1,0 +1,289 @@
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url(./fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(./fonts/Gilroy-Medium.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.navigation {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 252px 32px 252px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 33px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #828282;
+  font-family: "Gilroy-Bold";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.navigation a:focus {
+  color: black;
+}
+
+.navigation a:hover {
+  color: #070707;
+}
+
+.line {
+  text-align: center;
+}
+
+.picture-1 {
+  text-align: center;
+}
+
+.main-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 252px 0 251px;
+}
+
+.name {
+  width: 124px;
+  height: 118px;
+  font-family: "Gilroy-Bold";
+  font-weight: 400;
+  font-size: 47.3392px;
+  line-height: 59px;
+  color: #070707;
+  margin-top: 40px;
+}
+
+.profession {
+  width: 156px;
+  height: 44px;
+  font-family: "Gilroy-Medium";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  margin-top: 95px;
+}
+
+.lang {
+  transform: rotate(-90deg);
+  transform-origin: top left;
+  margin-top: 70px;
+  margin-right: -50px;
+  margin-top: 138px;
+}
+
+.ru:focus,
+.vertical:focus,
+.eng:focus {
+  color: black;
+}
+
+.lang a {
+  text-decoration: none;
+  font-family: "Gilroy-Bold";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+}
+
+.picture-1 {
+  margin: 31px 0 104px 0;
+}
+
+.about-me {
+  max-width: 1440px;
+  height: 506px;
+  margin-top: 104px;
+  background-color: #f6f6f6;
+}
+
+.about-me h2 {
+  padding-top: 120px;
+  margin: 0 auto;
+  font-family: "Gilroy-Bold";
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+}
+
+.text {
+  width: 486px;
+  height: 218px;
+  margin: 18px 0 0 480px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-family: "Gilroy-Medium";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+
+.skills h2 {
+  margin-top: 91px;
+  font-family: "Gilroy-Bold";
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+}
+
+.article-text {
+  font-family: "Gilroy-Medium";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin: 69px 0 83px 0;
+}
+
+.skills-flex {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 180px 0 256px;
+}
+
+.skills-flex p {
+  width: 80px;
+  height: 28px;
+  margin: 24px 0 40px 0;
+  font-family: "Gilroy-Bold";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+}
+
+.stars {
+  transform: translateX(-40px);
+}
+
+.figma {
+  transform: translateX(10px);
+}
+
+.portfolio {
+  padding-top: 50px;
+  margin-top: 110px;
+  max-width: 1440px;
+  height: 2300px;
+  background-color: #f6f6f6;
+}
+
+.portfolio h2 {
+  margin: 80px 0 47px 0;
+  font-family: "Gilroy-Bold";
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+}
+
+.pictures {
+  text-align: center;
+}
+
+.picture-text {
+  margin: 45px 0 99px 0;
+  font-family: "Gilroy-Medium";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+  cursor: pointer;
+}
+
+footer h2 {
+  margin: 114px 0 20px 0;
+  font-family: "Gilroy-Bold";
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+}
+
+.footer-text {
+  width: 275px;
+  margin: 0 0 30px 590px;
+  font-family: "Gilroy-Medium";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+button {
+  width: 181px;
+  height: 42px;
+  margin: 0 0 86px 635px;
+  background-color: #070707;
+  color: #ffffff;
+  font-family: "Gilroy-Bold";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}
+
+.chats {
+  padding: 0 550px 0 570px;
+  margin-bottom: 46px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.move:hover {
+  transform: translate(20px);
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.like-me {
+  padding: 0 597px 123px 600px;
+  font-family: "Gilroy-Medium";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+}
