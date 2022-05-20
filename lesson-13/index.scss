@@ -1,0 +1,29 @@
+.conteiner{
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "navigation section section"
+    "footer footer footer";
+    // gap: 15px;
+}
+
+.header{
+    grid-area: header;
+}
+
+.navigation{
+    grid-area: navigation;
+}
+
+.section{
+    grid-area: section;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+.element{
+    padding: 10px;
+    border: 1px solid black;
+}

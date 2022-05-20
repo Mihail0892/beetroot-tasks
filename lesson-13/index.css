@@ -1,0 +1,38 @@
+.conteiner {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "header header header" "navigation section section" "footer footer footer";
+}
+
+.header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: header;
+}
+
+.navigation {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: navigation;
+}
+
+.section {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: section;
+}
+
+.footer {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: footer;
+}
+
+.element {
+  padding: 10px;
+  border: 1px solid black;
+}
+/*# sourceMappingURL=index.css.map */
