@@ -1,18 +1,32 @@
+body {
+    margin: 0;
+    max-width: 1440px;
+    background-color: rgb(146, 191, 234);
+  }
+
 .conteiner{
     display: grid;
     grid-template-areas:
-    "header header header"
-    "navigation section section"
-    "footer footer footer";
-    // gap: 15px;
+    "header header header header"
+    "navigation section section section"
+    "footer footer footer footer";
+    gap: 15px;
+    grid-template-columns: 1fr 3fr ;
+    grid-template-rows:70px 1fr 70px;
 }
 
 .header{
     grid-area: header;
+    text-align: center;
+    font-size: 50px;
+    color:blue;
 }
 
 .navigation{
     grid-area: navigation;
+    align-self: start;
+    display: flex;
+    flex-direction: column; 
 }
 
 .section{
@@ -21,9 +35,74 @@
 
 .footer{
     grid-area: footer;
+    text-align: center;
+    font-size: 50px;
+    color: yellow;
 }
 
 .element{
     padding: 10px;
-    border: 1px solid black;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
 }
+
+.section{
+    display: grid;
+    grid-template-areas:
+    "el-1 el-1 el-2 el-2 el-3 el-3"
+    "el-4 el-4 el-5 el-5 el-6 el-6";
+    gap: 10px;
+
+}
+
+.element-1{
+    grid-area: el-1;
+    &:hover{
+        transform: scale(1.3);
+    }
+}
+.element-2{
+    grid-area: el-2;
+    &:hover{
+        transform: scale(1.3);
+    }
+}
+.element-3{
+    grid-area: el-3;
+    &:hover{
+        transform: scale(1.3);
+    }
+}
+.element-4{
+    grid-area: el-4;
+    &:hover{
+        transform: scale(1.3);
+    }
+}
+.element-5{
+    grid-area: el-5;
+    &:hover{
+        transform: scale(1.3);
+    }
+}
+.element-6{
+    grid-area: el-6;
+    &:hover{
+        transform: scale(1.3);
+    }
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.navigation a{
+ text-decoration: none;
+ color: rgb(240, 240, 12);
+ font-size: 30px;
+ &:hover{
+     color: red;
+ }
+}
+
