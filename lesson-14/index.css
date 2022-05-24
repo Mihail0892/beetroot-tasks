@@ -1,0 +1,247 @@
+.conteiner {
+  margin: 0 auto;
+  width: 1000px;
+  height: 700px;
+  border: 1px solid black;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.picture-1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(./assets/carta1.jpg);
+  -webkit-animation: transform-card-1 2s ease-in-out alternate infinite 0s;
+          animation: transform-card-1 2s ease-in-out alternate infinite 0s;
+}
+
+.picture-1:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@-webkit-keyframes transform-card-1 {
+  100% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    background-image: url(./assets/corol-chervei.jpg);
+  }
+}
+
+@keyframes transform-card-1 {
+  100% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    background-image: url(./assets/corol-chervei.jpg);
+  }
+}
+
+.picture-2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./assets/carta1.jpg);
+  -webkit-animation: transform-card-2 2s ease-in-out alternate infinite 1s;
+          animation: transform-card-2 2s ease-in-out alternate infinite 1s;
+}
+
+.picture-2:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@-webkit-keyframes transform-card-2 {
+  100% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    background-image: url(./assets/corol-bubn.jpg);
+  }
+}
+
+@keyframes transform-card-2 {
+  100% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    background-image: url(./assets/corol-bubn.jpg);
+  }
+}
+
+.picture-3 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./assets/carta1.jpg);
+  -webkit-animation: transform-card-3 2s ease-in-out alternate infinite 2s;
+          animation: transform-card-3 2s ease-in-out alternate infinite 2s;
+}
+
+.picture-3:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@-webkit-keyframes transform-card-3 {
+  100% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    background-image: url(./assets/corol-kresti.jpg);
+  }
+}
+
+@keyframes transform-card-3 {
+  100% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    background-image: url(./assets/corol-kresti.jpg);
+  }
+}
+
+.picture-4 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./assets/carta1.jpg);
+  -webkit-animation: transform-card-4 2s ease-in-out alternate infinite 3s;
+          animation: transform-card-4 2s ease-in-out alternate infinite 3s;
+}
+
+.picture-4:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@-webkit-keyframes transform-card-4 {
+  100% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    background-image: url(./assets/corol-pik.jpg);
+  }
+}
+
+@keyframes transform-card-4 {
+  100% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    background-image: url(./assets/corol-pik.jpg);
+  }
+}
+
+.picture-5 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./assets/carta1.jpg);
+  -webkit-animation: transform-card-5 2s ease-in-out alternate infinite 4s;
+          animation: transform-card-5 2s ease-in-out alternate infinite 4s;
+}
+
+.picture-5:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@-webkit-keyframes transform-card-5 {
+  100% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    background-image: url(./assets/dama-chervei.jpg);
+  }
+}
+
+@keyframes transform-card-5 {
+  100% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    background-image: url(./assets/dama-chervei.jpg);
+  }
+}
+
+.picture-6 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./assets/carta1.jpg);
+  -webkit-animation: transform-card-6 2s ease-in-out alternate infinite 5s;
+          animation: transform-card-6 2s ease-in-out alternate infinite 5s;
+}
+
+.picture-6:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@-webkit-keyframes transform-card-6 {
+  100% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    background-image: url(./assets/dama-bubn.jpg);
+  }
+}
+
+@keyframes transform-card-6 {
+  100% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    background-image: url(./assets/dama-bubn.jpg);
+  }
+}
+
+.picture-7 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./assets/carta1.jpg);
+  -webkit-animation: transform-card-7 2s ease-in-out alternate infinite 6s;
+          animation: transform-card-7 2s ease-in-out alternate infinite 6s;
+}
+
+.picture-7:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@-webkit-keyframes transform-card-7 {
+  100% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    background-image: url(./assets/dama-kresti.jpg);
+  }
+}
+
+@keyframes transform-card-7 {
+  100% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    background-image: url(./assets/dama-kresti.jpg);
+  }
+}
+
+.picture-8 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./assets/carta1.jpg);
+  -webkit-animation: transform-card-8 2s ease-in-out alternate infinite 7s;
+          animation: transform-card-8 2s ease-in-out alternate infinite 7s;
+}
+
+.picture-8:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@-webkit-keyframes transform-card-8 {
+  100% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    background-image: url(./assets/dama-pic.jpg);
+  }
+}
+
+@keyframes transform-card-8 {
+  100% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    background-image: url(./assets/dama-pic.jpg);
+  }
+}
+/*# sourceMappingURL=index.css.map */
