@@ -13,9 +13,7 @@
 }
 
 .picture-1 {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-size: 100% 100%;
   background-image: url(./assets/carta1.jpg);
   -webkit-animation: transform-card-1 2s ease-in-out alternate infinite 0s;
           animation: transform-card-1 2s ease-in-out alternate infinite 0s;
@@ -43,8 +41,7 @@
 }
 
 .picture-2 {
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: 100% 100%;
   background-image: url(./assets/carta1.jpg);
   -webkit-animation: transform-card-2 2s ease-in-out alternate infinite 1s;
           animation: transform-card-2 2s ease-in-out alternate infinite 1s;
@@ -60,6 +57,7 @@
     -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg);
     background-image: url(./assets/corol-bubn.jpg);
+    background-size: contain;
   }
 }
 
@@ -68,12 +66,12 @@
     -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg);
     background-image: url(./assets/corol-bubn.jpg);
+    background-size: contain;
   }
 }
 
 .picture-3 {
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: 100% 100%;
   background-image: url(./assets/carta1.jpg);
   -webkit-animation: transform-card-3 2s ease-in-out alternate infinite 2s;
           animation: transform-card-3 2s ease-in-out alternate infinite 2s;
@@ -101,8 +99,7 @@
 }
 
 .picture-4 {
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: 100% 100%;
   background-image: url(./assets/carta1.jpg);
   -webkit-animation: transform-card-4 2s ease-in-out alternate infinite 3s;
           animation: transform-card-4 2s ease-in-out alternate infinite 3s;
@@ -130,8 +127,7 @@
 }
 
 .picture-5 {
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: 100% 100%;
   background-image: url(./assets/carta1.jpg);
   -webkit-animation: transform-card-5 2s ease-in-out alternate infinite 4s;
           animation: transform-card-5 2s ease-in-out alternate infinite 4s;
@@ -159,8 +155,7 @@
 }
 
 .picture-6 {
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: 100% 100%;
   background-image: url(./assets/carta1.jpg);
   -webkit-animation: transform-card-6 2s ease-in-out alternate infinite 5s;
           animation: transform-card-6 2s ease-in-out alternate infinite 5s;
@@ -188,8 +183,7 @@
 }
 
 .picture-7 {
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: 100% 100%;
   background-image: url(./assets/carta1.jpg);
   -webkit-animation: transform-card-7 2s ease-in-out alternate infinite 6s;
           animation: transform-card-7 2s ease-in-out alternate infinite 6s;
@@ -217,8 +211,7 @@
 }
 
 .picture-8 {
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: 100% 100%;
   background-image: url(./assets/carta1.jpg);
   -webkit-animation: transform-card-8 2s ease-in-out alternate infinite 7s;
           animation: transform-card-8 2s ease-in-out alternate infinite 7s;

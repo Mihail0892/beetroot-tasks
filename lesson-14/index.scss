@@ -10,9 +10,7 @@
 }
 
 .picture-1{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:center;
+    background-size:100% 100% ;
     background-image: url(./assets/carta1.jpg);
     animation: transform-card-1 2s ease-in-out alternate infinite 0s;
     &:hover{
@@ -23,13 +21,13 @@
 @keyframes transform-card-1 {
     100%{
         transform: rotateY(180deg);
-        background-image: url(./assets/corol-chervei.jpg);  
+        background-image: url(./assets/corol-chervei.jpg);
+        // background-size:contain;  
     }
 }
 
 .picture-2{
-    background-size:cover;
-    background-repeat: no-repeat;
+    background-size:100% 100% ;
     background-image: url(./assets/carta1.jpg);
     animation: transform-card-2 2s ease-in-out alternate infinite 1s;
     &:hover{
@@ -40,13 +38,13 @@
 @keyframes transform-card-2 {
     100%{
         transform: rotateY(180deg);
-        background-image: url(./assets/corol-bubn.jpg);  
+        background-image: url(./assets/corol-bubn.jpg);
+        background-size:contain;  
     }
 }
 
 .picture-3{
-    background-size:cover;
-    background-repeat: no-repeat;
+    background-size:100% 100% ;
     background-image: url(./assets/carta1.jpg);
     animation: transform-card-3 2s ease-in-out alternate infinite 2s;
     &:hover{
@@ -57,13 +55,12 @@
 @keyframes transform-card-3 {
     100%{
         transform: rotateY(180deg);
-        background-image: url(./assets/corol-kresti.jpg);  
+        background-image: url(./assets/corol-kresti.jpg); 
     }
 }
 
 .picture-4{
-    background-size:cover;
-    background-repeat: no-repeat;
+    background-size:100% 100% ;
     background-image: url(./assets/carta1.jpg);
     animation: transform-card-4 2s ease-in-out alternate infinite 3s;
     &:hover{
@@ -79,8 +76,7 @@
 }
 
 .picture-5{
-    background-size:cover;
-    background-repeat: no-repeat;
+    background-size:100% 100% ;
     background-image: url(./assets/carta1.jpg);
     animation: transform-card-5 2s ease-in-out alternate infinite 4s;
     &:hover{
@@ -96,8 +92,7 @@
 }
 
 .picture-6{
-    background-size:cover;
-    background-repeat: no-repeat;
+    background-size:100% 100% ;
     background-image: url(./assets/carta1.jpg);
     animation: transform-card-6 2s ease-in-out alternate infinite 5s;
     &:hover{
@@ -113,8 +108,7 @@
 }
 
 .picture-7{
-    background-size:cover;
-    background-repeat: no-repeat;
+    background-size:100% 100% ;
     background-image: url(./assets/carta1.jpg);
     animation: transform-card-7 2s ease-in-out alternate infinite 6s;
     &:hover{
@@ -130,8 +124,7 @@
 }
 
 .picture-8{
-    background-size:cover;
-    background-repeat: no-repeat;
+    background-size:100% 100%;
     background-image: url(./assets/carta1.jpg);
     animation: transform-card-8 2s ease-in-out alternate infinite 7s;
     &:hover{
