@@ -1,0 +1,782 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.all-page {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.section-1 {
+  position: relative;
+  max-width: 1248px;
+  height: 754px;
+  margin: 50px 112px 99px 240px;
+}
+
+.header,
+.header-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header {
+  max-width: 1120px;
+  height: 60px;
+  padding-bottom: 130px;
+}
+
+.header-links {
+  width: 450px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-decoration: none;
+  padding-left: 121px;
+}
+
+.links-design {
+  text-decoration: none;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4b5d68;
+}
+
+.links-design:hover {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  color: #212353;
+}
+
+.large-button {
+  width: 210px;
+  height: 60px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+          box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+  border: none;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.005em;
+  color: #212353;
+}
+
+.large-button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+.section-1-text {
+  position: absolute;
+  width: 645px;
+  height: 464px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.section-1-caption {
+  width: 645px;
+  height: 184px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 110%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #212353;
+}
+
+.section-1-main-text {
+  width: 380px;
+  height: 120px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4b5d68;
+}
+
+.little-button {
+  width: 170px;
+  height: 60px;
+  border-radius: 50px;
+  border: none;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 160%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.little-button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+.violet {
+  background-color: #9c69e2;
+}
+
+.section-1-picture {
+  position: absolute;
+  width: 885px;
+  height: 468px;
+  top: 226px;
+  left: 363px;
+  z-index: -1;
+}
+
+.section-2 {
+  position: relative;
+  width: 1117px;
+  height: 560px;
+  background-color: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+  margin: 0 243px 150px 240px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-2-picture {
+  padding-right: 62px;
+}
+
+.section-2-text {
+  width: 475px;
+  height: 310px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  left: 550px;
+  top: 125px;
+}
+
+.section-2-caption {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #212353;
+}
+
+.section-2-main-text {
+  width: 474px;
+  height: 170px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4b5d68;
+}
+
+.section-3 {
+  position: relative;
+  width: 1138px;
+  height: 1026px;
+  margin: 0 243px 150px 220px;
+}
+
+.section-3-caption {
+  position: absolute;
+  left: 376px;
+  width: 405px;
+  height: 52px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #212353;
+}
+
+.section-3-main-text {
+  position: absolute;
+  width: 584px;
+  height: 58px;
+  top: 102px;
+  left: 287px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: #4b5d68;
+}
+
+.grid-conteiner {
+  padding-top: 260px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  gap: 40px;
+}
+
+.grid-item {
+  position: relative;
+  width: 540px;
+  height: 358px;
+}
+
+.grid-item-1-img {
+  position: absolute;
+  width: 232px;
+  height: 211px;
+  top: 73px;
+  z-index: 3;
+}
+
+.grid-item-1-text {
+  position: absolute;
+  left: 89px;
+  width: 442px;
+  height: 358px;
+  background-image: url(../assets/background-1.svg);
+}
+
+.grid-item-2-text {
+  position: absolute;
+  left: 89px;
+  width: 442px;
+  height: 358px;
+  background-image: url(../assets/background-2.svg);
+}
+
+.grid-item-3-text {
+  position: absolute;
+  left: 89px;
+  width: 442px;
+  height: 358px;
+  background-image: url(../assets/background-3.svg);
+}
+
+.grid-item-4-text {
+  position: absolute;
+  left: 89px;
+  width: 442px;
+  height: 358px;
+  background-image: url(../assets/background-4.svg);
+}
+
+.grid-item-caption {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  top: 49px;
+  left: 172px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #212353;
+}
+
+.grid-item-main-text {
+  position: absolute;
+  width: 220px;
+  height: 160px;
+  left: 172px;
+  top: 119px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4b5d68;
+}
+
+.grid-item-text-arrow {
+  position: absolute;
+  width: 127px;
+  height: 26px;
+  left: 172px;
+  top: 299px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  letter-spacing: 0.005em;
+  color: #212353;
+}
+
+.grid-item-text-arrow:hover {
+  -webkit-transform: translateX(8px);
+          transform: translateX(8px);
+  cursor: pointer;
+}
+
+.section-4 {
+  position: relative;
+  width: 1118px;
+  height: 709px;
+  margin: 0 24px 150px 242px;
+  background-color: #9c69e2;
+  border-radius: 50px;
+}
+
+.section-4-caption {
+  position: absolute;
+  width: 405px;
+  height: 52px;
+  left: 93px;
+  top: 109px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.section-4-content {
+  position: absolute;
+  width: 645px;
+  height: 330px;
+  left: 236px;
+  top: 246px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 20px 0px rgba(103, 11, 232, 0.3);
+          box-shadow: 0px 20px 0px rgba(103, 11, 232, 0.3);
+  border-radius: 20px;
+}
+
+.section-4-content-img {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: 70px;
+  top: 60px;
+}
+
+.section-4-content-text {
+  position: absolute;
+  width: 385px;
+  height: 200px;
+  left: 190px;
+  top: 80px;
+}
+
+.section-4-content-text-name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 170px;
+  height: 29px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 160%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.005em;
+  color: #212353;
+}
+
+.section-4-content-text-link {
+  position: absolute;
+  top: 29px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.01em;
+  color: #9c69e2;
+  text-decoration: none;
+}
+
+.section-4-content-text-link:hover {
+  text-decoration: underline;
+}
+
+.section-4-content-text-main {
+  position: absolute;
+  width: 385px;
+  height: 130px;
+  top: 70px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  color: #4b5d68;
+}
+
+.footer {
+  position: relative;
+  width: 1600px;
+  height: 756px;
+  padding: 102px 240px 0 240px;
+}
+
+.footer-flex-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-flex-1-left {
+  width: 584px;
+  height: 101px;
+}
+
+.footer-flex-1-left-caption {
+  width: 405px;
+  height: 52px;
+  padding-bottom: 20px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #212353;
+}
+
+.footer-flex-1-left-text {
+  width: 584px;
+  height: 29px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4b5d68;
+}
+
+.footer-flex-1-right {
+  width: 410px;
+  height: 60px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pink {
+  background-color: #f063b8;
+}
+
+.contacts {
+  width: 1085px;
+  height: 400px;
+  padding-top: 153px;
+}
+
+.footer-logo-text {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-bottom: 65px;
+}
+
+.contacts-flex-first {
+  width: 335px;
+  height: 220px;
+}
+
+.logo-text {
+  padding-left: 20px;
+  width: 153px;
+  height: 30px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 160%;
+  color: #212353;
+}
+
+.contacts-flex-first-text-1 {
+  width: 335px;
+  height: 65px;
+  padding-bottom: 10px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.01em;
+  color: #212353;
+}
+
+.contacts-flex-first-text-2 {
+  width: 335px;
+  height: 60px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.01em;
+  color: #212353;
+}
+
+.contacts-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.column-1-links,
+.column-2-links {
+  width: 166px;
+  height: 190px;
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.column-1-links a,
+.column-2-links a {
+  text-decoration: none;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 250%;
+  color: #212353;
+}
+
+.column-1-links a:hover,
+.column-2-links a:hover {
+  text-decoration: underline;
+}
+
+.social-media-links {
+  width: 178px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  padding-top: 30px;
+}
+
+.facebook,
+.twitter,
+.instagram {
+  width: 50px;
+  height: 50px;
+  background-color: #212353;
+  opacity: 0.1;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.facebook:hover,
+.twitter:hover,
+.instagram:hover {
+  cursor: pointer;
+  background-color: #0b8df7;
+  opacity: 0.7;
+}
+
+.facebook-icon {
+  width: 10px;
+  height: 20px;
+}
+
+.twitter-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.instagram-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.facebook-icon use,
+.twitter-icon use,
+.instagram-icon use {
+  fill: white;
+}
+
+.facebook-icon use:hover,
+.twitter-icon use:hover,
+.instagram-icon use:hover {
+  fill: orange;
+  stroke: red;
+}
+
+.copyright {
+  position: absolute;
+  padding-bottom: 96px;
+  width: 360px;
+  height: 50px;
+  top: 704px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 180%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.01em;
+  color: #212353;
+}
+/*# sourceMappingURL=index.css.map */
