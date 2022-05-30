@@ -1,9 +1,100 @@
+@font-face {
+  font-family: "AvenirBold";
+  src: url(../fonts/AvenirBold.otf);
+}
+
+@font-face {
+  font-family: "AvenirHeavy";
+  src: url(../fonts/AvenirHeavy.ttf);
+}
+
+@font-face {
+  font-family: "AvenirMedium";
+  src: url(../fonts/AvenirMedium.ttf);
+}
+
+@font-face {
+  font-family: "AvenirNormal";
+  src: url(../fonts/AvenirNormal.ttf);
+}
+
+@font-face {
+  font-family: "HelveticaBold";
+  src: url(../fonts/HelveticaBold.ttf);
+}
+
+@font-face {
+  font-family: "HelveticaNormal";
+  src: url(../fonts/HelveticaNormal.ttf);
+}
+
+%text-font-1 {
+  font-family: "AvenirMedium";
+  font-style: normal;
+  font-weight: 500;
+}
+
+%text-font-2 {
+  font-family: "AvenirBold";
+  font-style: normal;
+  font-weight: 800;
+}
+
+%text-font-3 {
+  font-family: "HelveticaBold";
+  font-style: normal;
+  font-weight: 700;
+}
+
+%text-font-4 {
+  font-family: "HelveticaNormal";
+  font-style: normal;
+  font-weight: 400;
+}
+
+%text-font-5 {
+  font-family: "AvenirNormal";
+  font-style: normal;
+  font-weight: 400;
+}
+
+%text-font-6 {
+  font-family: "AvenirHeavy";
+  font-style: normal;
+  font-weight: 900;
+}
+
+%text-size-1 {
+  font-size: 16px;
+  line-height: 160%;
+}
+
+%text-size-2 {
+  font-size: 18px;
+  line-height: 160%;
+}
+
+%text-size-3 {
+  font-size: 40px;
+  line-height: 130%;
+}
+
+%text-size-4 {
+  font-size: 16px;
+  line-height: 180%;
+}
+
+%flex {
+  display: flex;
+  justify-content: space-between;
+}
+
 * {
   box-sizing: border-box;
 }
 body {
   margin: 0;
-  // background-color: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+  background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
 }
 
 h1,
@@ -27,13 +118,12 @@ p {
 
 .header,
 .header-left {
-  display: flex;
-  justify-content: space-between;
+  @extend %flex;
   align-items: center;
 }
 
 .header {
-  max-width: 1120px;
+  width: 1120px;
   height: 60px;
   padding-bottom: 130px;
 }
@@ -41,26 +131,19 @@ p {
 .header-links {
   width: 450px;
   height: 30px;
-  display: flex;
-  justify-content: space-between;
+  @extend %flex;
   text-decoration: none;
   padding-left: 121px;
 }
 
 .links-design {
   text-decoration: none;
-  font-family: "Avenir";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 160%;
+  @extend %text-font-1;
+  @extend %text-size-1;
   color: #4b5d68;
   &:hover {
-    font-family: "Avenir";
-    font-style: normal;
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 160%;
+    @extend %text-font-2;
+    @extend %text-size-1;
     color: #212353;
   }
 }
@@ -72,11 +155,8 @@ p {
   box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
   border-radius: 50px;
   border: none;
-  font-family: "Avenir";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 16px;
-  line-height: 160%;
+  @extend %text-font-2;
+  @extend %text-size-1;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -92,17 +172,14 @@ p {
   position: absolute;
   width: 645px;
   height: 464px;
-  display: flex;
+  @extend %flex;
   flex-direction: column;
-  justify-content: space-around;
 }
 
 .section-1-caption {
   width: 645px;
   height: 184px;
-  font-family: "Helvetica";
-  font-style: normal;
-  font-weight: 700;
+  @extend %text-font-3;
   font-size: 80px;
   line-height: 110%;
   display: flex;
@@ -113,11 +190,8 @@ p {
 .section-1-main-text {
   width: 380px;
   height: 120px;
-  font-family: "Avenir";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 160%;
+  @extend %text-font-1;
+  @extend %text-size-2;
   color: #4b5d68;
 }
 
@@ -126,11 +200,8 @@ p {
   height: 60px;
   border-radius: 50px;
   border: none;
-  font-family: "Avenir";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 160%;
+  @extend %text-font-2;
+  @extend %text-size-2;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -170,21 +241,18 @@ p {
 }
 
 .section-2-text {
+  @extend %flex;
+  flex-direction: column;
   width: 475px;
   height: 310px;
   position: absolute;
-  display: flex;
-  flex-direction: column;
   left: 550px;
   top: 125px;
 }
 
 .section-2-caption {
-  font-family: "Helvetica";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 130%;
+  @extend %text-font-3;
+  @extend %text-size-3;
   display: flex;
   align-items: center;
   color: #212353;
@@ -193,11 +261,8 @@ p {
 .section-2-main-text {
   width: 474px;
   height: 170px;
-  font-family: "Avenir";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 160%;
+  @extend %text-font-1;
+  @extend %text-size-2;
   color: #4b5d68;
 }
 
@@ -213,11 +278,8 @@ p {
   left: 376px;
   width: 405px;
   height: 52px;
-  font-family: "Helvetica";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 130%;
+  @extend %text-font-3;
+  @extend %text-size-3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -231,11 +293,8 @@ p {
   height: 58px;
   top: 102px;
   left: 287px;
-  font-family: "Avenir";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 160%;
+  @extend %text-font-1;
+  @extend %text-size-2;
   text-align: center;
   color: #4b5d68;
 }
@@ -262,35 +321,29 @@ p {
   z-index: 3;
 }
 
-.grid-item-1-text {
-  position: absolute;
-  left: 89px;
-  width: 442px;
-  height: 358px;
-  background-image: url(../assets/background-1.svg);
-}
-
-.grid-item-2-text {
-  position: absolute;
-  left: 89px;
-  width: 442px;
-  height: 358px;
-  background-image: url(../assets/background-2.svg);
-}
-
-.grid-item-3-text {
-  position: absolute;
-  left: 89px;
-  width: 442px;
-  height: 358px;
-  background-image: url(../assets/background-3.svg);
-}
-
+.grid-item-1-text,
+.grid-item-2-text,
+.grid-item-3-text,
 .grid-item-4-text {
   position: absolute;
   left: 89px;
   width: 442px;
   height: 358px;
+}
+
+.grid-item-1-text {
+  background-image: url(../assets/background-1.svg);
+}
+
+.grid-item-2-text {
+  background-image: url(../assets/background-2.svg);
+}
+
+.grid-item-3-text {
+  background-image: url(../assets/background-3.svg);
+}
+
+.grid-item-4-text {
   background-image: url(../assets/background-4.svg);
 }
 
@@ -300,9 +353,7 @@ p {
   height: 50px;
   top: 49px;
   left: 172px;
-  font-family: "Helvetica";
-  font-style: normal;
-  font-weight: 400;
+  @extend %text-font-4;
   font-size: 24px;
   line-height: 130%;
   display: flex;
@@ -316,11 +367,8 @@ p {
   height: 160px;
   left: 172px;
   top: 119px;
-  font-family: "Avenir";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 160%;
+  @extend %text-font-5;
+  @extend %text-size-1;
   color: #4b5d68;
 }
 
@@ -330,14 +378,10 @@ p {
   height: 26px;
   left: 172px;
   top: 299px;
-  font-family: "Avenir";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 16px;
-  line-height: 160%;
-  display: flex;
+  @extend %text-font-2;
+  @extend %text-size-1;
+  @extend %flex;
   align-items: center;
-  justify-content: space-between;
   letter-spacing: 0.005em;
   color: #212353;
   &:hover {
@@ -361,11 +405,8 @@ p {
   height: 52px;
   left: 93px;
   top: 109px;
-  font-family: "Helvetica";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 130%;
+  @extend %text-font-3;
+  @extend %text-size-3;
   display: flex;
   align-items: center;
   color: #ffffff;
@@ -404,11 +445,8 @@ p {
   left: 0;
   width: 170px;
   height: 29px;
-  font-family: "Avenir";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 18px;
-  line-height: 160%;
+  @extend %text-font-6;
+  @extend %text-size-2;
   display: flex;
   align-items: center;
   letter-spacing: 0.005em;
@@ -418,9 +456,7 @@ p {
 .section-4-content-text-link {
   position: absolute;
   top: 29px;
-  font-family: "Avenir";
-  font-style: normal;
-  font-weight: 500;
+  @extend %text-font-1;
   font-size: 14px;
   line-height: 160%;
   display: flex;
@@ -435,12 +471,10 @@ p {
 
 .section-4-content-text-main {
   position: absolute;
-  width: 385px;
+  width: 383px;
   height: 130px;
   top: 70px;
-  font-family: "Avenir";
-  font-style: normal;
-  font-weight: 400;
+  @extend %text-font-5;
   font-size: 18px;
   line-height: 180%;
   color: #4b5d68;
@@ -454,8 +488,7 @@ p {
 }
 
 .footer-flex-1 {
-  display: flex;
-  justify-content: space-between;
+  @extend %flex;
 }
 
 .footer-flex-1-left {
@@ -467,11 +500,8 @@ p {
   width: 405px;
   height: 52px;
   padding-bottom: 20px;
-  font-family: "Helvetica";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 130%;
+  @extend %text-font-3;
+  @extend %text-size-3;
   display: flex;
   align-items: center;
   color: #212353;
@@ -480,11 +510,8 @@ p {
 .footer-flex-1-left-text {
   width: 584px;
   height: 29px;
-  font-family: "Avenir";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 160%;
+  @extend %text-font-1;
+  @extend %text-size-2;
   color: #4b5d68;
 }
 
@@ -519,9 +546,7 @@ p {
   padding-left: 20px;
   width: 153px;
   height: 30px;
-  font-family: "Avenir";
-  font-style: normal;
-  font-weight: 900;
+  @extend %text-font-6;
   font-size: 20px;
   line-height: 160%;
   color: #212353;
@@ -531,11 +556,8 @@ p {
   width: 335px;
   height: 65px;
   padding-bottom: 10px;
-  font-family: "Avenir";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 180%;
+  @extend %text-font-1;
+  @extend %text-size-4;
   letter-spacing: 0.01em;
   color: #212353;
 }
@@ -543,18 +565,14 @@ p {
 .contacts-flex-first-text-2 {
   width: 335px;
   height: 60px;
-  font-family: "Avenir";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 180%;
+  @extend %text-font-5;
+  @extend %text-size-4;
   letter-spacing: 0.01em;
   color: #212353;
 }
 
 .contacts-flex {
-  display: flex;
-  justify-content: space-between;
+  @extend %flex;
 }
 
 .column-1-links,
@@ -566,9 +584,7 @@ p {
   flex-direction: column;
   a {
     text-decoration: none;
-    font-family: "Avenir";
-    font-style: normal;
-    font-weight: 400;
+    @extend %text-font-5;
     font-size: 16px;
     line-height: 250%;
     color: #212353;
@@ -581,8 +597,7 @@ p {
 .social-media-links {
   width: 178px;
   height: 50px;
-  display: flex;
-  justify-content: space-between;
+  @extend %flex;
   text-align: center;
   align-items: baseline;
   padding-top: 30px;
@@ -599,33 +614,29 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  &:hover{
+  &:hover {
     cursor: pointer;
-    background-color:rgb(11, 141, 247);
+    background-color: rgb(11, 141, 247);
     opacity: 0.7;
   }
 }
 
-.facebook-icon{
-    width: 10px;
-    height: 20px;
-}
-.twitter-icon{
-  width: 20px;
+.facebook-icon {
+  width: 10px;
   height: 20px;
 }
-
-.instagram-icon{
+.twitter-icon,
+.instagram-icon {
   width: 20px;
   height: 20px;
 }
 
 .facebook-icon use,
 .twitter-icon use,
-.instagram-icon use{
+.instagram-icon use {
   fill: white;
-  &:hover{
-    fill:orange;
+  &:hover {
+    fill: orange;
     stroke: red;
   }
 }
@@ -636,9 +647,7 @@ p {
   width: 360px;
   height: 50px;
   top: 704px;
-  font-family: "Avenir";
-  font-style: normal;
-  font-weight: 400;
+  @extend %text-font-5;
   font-size: 12px;
   line-height: 180%;
   display: flex;
