@@ -83,11 +83,12 @@ const shopList = [
 
 // Покупка продукту. Функція приймає назву продукту і відзначає його як придбаний.+
 
-// const CheckBuyProduct = shopList.filter(function (item, index) {
-//    if (item.productName ==="meat"||item.productName ==="water") item.buyStatus = "buy";return item;
-// });
+// function buy (product){
+// return shopList.filter(function (item, index) {
+//    if (item.productName === product) item.buyStatus = "buy";return item;
+// })};
 
-// console.log(CheckBuyProduct);
+// console.log(buy('meat'));
 
 // Створення списку (не) придбаних продуктів.+
 
@@ -99,66 +100,62 @@ const shopList = [
 // НОРМА
 // Видалення продукту зі списку+
 
-// const deleteProduct=shopList.filter(function(item,index){
-// 	if (item.productName !== "sugar"){return item};
-// })
+// function deleteProd (product){
+// return shopList.filter(function(item,index){
+// 	if (item.productName !== product) return item;
+// })};
 
-// console.log (deleteProduct);
+// console.log (deleteProd('milk'));
 
-// Додавання покупки в список. НЕ СДЕЛАНО!
+// Додавання покупки в список. НЕ ДОДЕЛАНО!
 
-// function newList(x) { shopList.map(function (item) {
-//   if (item.productName === x) {
-//     return { ...item, productAmount:item.productAmount + 1};
+// function newList(product) {
+//   return shopList.map(function (item) {
+//     if (item.productName === product) {
+//       return { ...item, productAmount: item.productAmount + 1 };
+//     }
+//     if (item.productName !== product)
+//       return({
+//         productName: product,
+//         productAmount: 1,
+//         buyStatus: "notBuy",
+//         price: 40,
+//         summ() {
+//           return this.price * this.productAmount;
+//         },
+//       });
+
+//     return item;
+//   });
+// }
+// console.log(newList("cola"));
+
+// let newProductList;
+// const addProduct = (product) => {
+//   newProductList = shopList.map((item) => {
+//     if (item.productName === product) {
+//       item.productAmount++;
+//     }
+//     return item;
+//   });
+
+//   const newProduct = shopList.find((item) => item.productName === product);
+
+//   if (!newProduct) {
+//     newProductList.push({
+//       productName: product,
+//       productAmount: 1,
+//       buyStatus: "notBuy",
+//       price: 140,
+//       summ() {
+//         return this.price * this.productAmount;
+//       },
+//     });
 //   }
-//   else  {shopList.push({
-//     productName: x,
-//     productAmount: 1,
-//     buyStatus: "notBuy",
-//     price: 40,
-//     summ() {
-//       return this.price * this.productAmount;
-//     },
-//   },)}
-// return item;})}; 
-// console.log(newList("milk"));
+//   return newProductList;
+// };
 
-// ВТОРАЯ ПОПЫТКА
-
-const newList = shopList.map(function (item) {
-  if (item.productName === "milk") {
-    return { ...item, productAmount:item.productAmount + 1};
-  }
-  else  {shopList.push({
-    productName: "cola",
-    productAmount: 1,
-    buyStatus: "notBuy",
-    price: 40,
-    summ() {
-      return this.price * this.productAmount;
-    },
-  },)}
-return item;});
-console.log(newList);
-
-// ТРЕТЬЯ ПОПЫТКА
-
-// const newList = shopList.map(function (item) {
-//   if (item.productName === "rice") {
-//     return { ...item, productAmount:item.productAmount + 1};
-//   } return item;
-//   else  {shopList.push({
-//     productName: "cola",
-//     productAmount: 1,
-//     buyStatus: "notBuy",
-//     price: 40,
-//     summ() {
-//       return this.price * this.productAmount;
-//     },
-//   },)}
-// });
-// console.log(newList);
-
+// console.log(addProduct("vine"));
 
 // МАКСИМУМ
 // Підрахунок суми всіх продуктів (враховуючи кількість кожного) в списку.
@@ -184,7 +181,6 @@ console.log(newList);
 // console.log(sortList('fromMinToMax', shopList));
 
 // console.log(shopList);
-
 
 
 
