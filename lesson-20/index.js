@@ -183,5 +183,59 @@ const shopList = [
 // console.log(shopList);
 
 
+function newList(product) {
+  return shopList.map(function (item) {
+    if (item.productName === product) {
+      return { ...item, productAmount: item.productAmount + 1 };
+    }
+    if (item.productName !== product) shopList.splice(3, 0, {
+        productName: product,
+        productAmount: 1,
+        buyStatus: "notBuy",
+        price: 40,
+        summ() {
+          return this.price * this.productAmount;
+        },
+      });
+
+    return item;
+  });
+}
+// console.log(newList("cola"));
+shopList.splice(3, 0, {
+  productName: 'sgsg',
+  productAmount: 1,
+  buyStatus: "notBuy",
+  price: 40,
+  summ() {
+    return this.price * this.productAmount;
+  },
+});
+console.log(shopList)
+
+
+
+
+// function newList(product) {
+//   return shopList.map(function (item) {
+//     if (item.productName === product) {
+//       return { ...item, productAmount: item.productAmount + 1 };
+//     }
+//     if (item.productName !== product) shopList.push({
+//         productName: product,
+//         productAmount: 0,
+//         buyStatus: "notBuy",
+//         price: 40,
+//         summ() {
+//           return this.price * this.productAmount;
+//         },
+//       });
+
+//     return item;
+//   });
+// }
+// console.log(newList("cola"));
+
+
 
 
