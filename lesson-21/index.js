@@ -93,7 +93,9 @@ class Marker {
     let arr2 = arr.filter(function (item) {
       return item !== " ";
     });
-    for (let i = 0; i <= arr2.length; i++) if ((i = i++)) this.inkAmount -= 5;
+    for (let i = 0; i <= arr2.length; i++) {
+      if ((i = i++)) this.inkAmount -= 5;
+    }
     if (this.inkAmount <= 0)
       return (this.inkAmount = 0), "заправьте маркер,йопта";
     return `Вы написали:${string}. Осталось ${this.inkAmount}% чернила`;
@@ -114,7 +116,7 @@ class FullMarker extends Marker {
 
 const redMarker = new Marker("red", 100);
 console.log(redMarker);
-console.log(redMarker.write("gggdsgds  "));
+console.log(redMarker.write("gggddgdgdgdgdgdgdgdgdgsgds"));
 const greenYellowMarker = new FullMarker("green", 100, "yellow");
 console.log(greenYellowMarker);
 console.log(greenYellowMarker.write("greпоплв"));
