@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="button-container">
+      <button class="open-button" id="open">Зареєструватися</button>
+    </div>
+    <div class="modal-window" id="modal">
+      <button class="close-button" id="close">Х</button>
+      <h1>Для реєстрації заповніть наступні поля</h1>
+      <form id="login-form">
+        <div class="form-container">
+          <label>
+            <span>Ім'я</span><br />
+            <input type="text" name="username" /> </label
+          ><br /><br />
+          <label class="password-label">
+            <span>Пароль</span><br />
+            <input type="password" name="password" id="password-input" />
+            <span
+              id="password-show"
+              class="password-button password-button-show"
+              >+</span
+            >
+            <span
+              id="password-hide"
+              class="password-button password-button-hide"
+              >-</span
+            >
+          </label>
+          <br /><br />
+          <button type="submit">OK</button>
+        </div>
+      </form>
+    </div>
+    <div class="boris" id="johnson">
+      <img src="./boris.jpg" /> <span class="text">Добрий день, EVERYBODY</span>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

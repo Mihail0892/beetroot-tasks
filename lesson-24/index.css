@@ -1,0 +1,68 @@
+.button-container {
+  width: 450px;
+
+  margin: 0 auto;
+}
+
+.open-button {
+  margin-left: 150px;
+  margin-bottom: 30px;
+  background-color: aquamarine;
+  border-radius: 8px;
+  width: 140px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.modal-window {
+  width: 450px;
+  height: 350px;
+  margin: 0 auto;
+  background-color: darkcyan;
+  display: none;
+}
+
+.close-button {
+  background-color: crimson;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+  color: darksalmon;
+}
+
+.form-container {
+  text-align: center;
+}
+
+.password-label {
+  position: relative;
+}
+
+.password-button {
+  position: absolute;
+  top: 20px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.password-button-hide {
+  display: none;
+}
+
+.boris {
+    width: 700px;
+  position: relative;
+  margin: 0 auto;
+  display: none;
+}
+
+.text {
+  position: absolute;
+  left: 400px;
+  top: 50px;
+  color: white;
+  font-size: 24px;
+}
