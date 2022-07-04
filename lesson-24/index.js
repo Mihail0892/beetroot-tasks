@@ -34,7 +34,7 @@ document.addEventListener("click", (Event) => {
     modalWindow.style.display = "none";
     openButton.style.display = "block";
     Boris.style.display = "none";
-    // passwordInput.innerHTML==='';
+    passwordInput.value='';
   }
 });
 
